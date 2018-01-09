@@ -1,0 +1,106 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  color: #283c63;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+section {
+  min-height: 80vh;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid lightgrey;
+  padding: 0;
+}
+
+
+h3 {
+  color: #2b5876;  /* fallback for old browsers */
+  color: -webkit-linear-gradient(to right, #4e4376, #2b5876);  /* Chrome 10-25, Safari 5.1-6 */
+  color: linear-gradient(to right, #4e4376, #2b5876); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.content-div h4 {
+  color: rgb(125, 199, 244);
+}
+
+
+.halign-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+/* Header */
+.sticky {
+  position: fixed;
+  top: 0;
+  z-index: 22;
+}
+
+.nav-logo {
+  height: 63px;
+  /* width: 50px; */
+  padding: 3px;
+}
+
+.btn {
+  text-transform: none;
+}
+
+.nav-wrapper, nav {
+  background-color: white;
+  color: inherit;
+  opacity: .97;
+}
+
+.questions-section, .why-section, .how-it-works-section {
+  min-height: 70vh;
+}
+
+nav {
+  box-shadow: none;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+nav a {
+  color: #283c63 !important;
+}
+
+.header-shadow {
+   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+}
+
+nav ul a {
+  color: inherit;
+}
+
+.contact-holder {
+  height: 40vh;
+}
+
+.email-btn {
+  background-color: rgb(125, 199, 244);
+}
+
+/* Footer */
+footer {
+  height: 230px;
+  margin-top: 90px;
+}
+
+footer .copy-wright {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 10px;
+  color: grey;
+}
